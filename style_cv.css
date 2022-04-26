@@ -1,0 +1,124 @@
+* {
+    padding : 0;
+    margin : 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      padding: 4rem 5rem; 
+      background: linear-gradient(grey, green);
+  }
+  
+  html {
+      color:#222;
+  }
+
+  main display: flex; 
+  
+  h1 {
+      font-size: 2rem;
+      text-transform: uppercase;
+      text-align: center;
+    }
+  h2 {
+      font-size: 1.5rem
+      text-transform= uppercase; 
+      border-top: 2px solid #555;
+      border-bottom: 2px solid #555;
+      padding: 1rem 0;
+      margin-bottom: 1rem;/*pour espacer les lignes*/
+      margin-top: 1rem;/*pour espacer les lignes*/
+    }
+
+
+  h3 {
+      font-size: 1.25rem;  
+      margin-top: 0.5rem;
+      text-transform= uppercase; 
+      color: green;
+      margin-bottom: 1rem;
+    }
+
+    li {
+        margin-top: 0.5rem;/*pour espacer les lignes*/
+        text-align: justify;
+    }
+    li + li {
+        margin-top: 0.5rem;/*pour espacer les lignes*/
+    }
+  
+    p {
+        margin-top: 0.5rem; /*pour espacer les lignes*/
+    }
+
+  div {
+    border-radius: 5px;
+  }
+
+  ul {
+      list-style: none; /*car je ne veux pas de bullet points*/
+  }
+
+  .entete {
+    width: 89vw;
+    height: 10rem;
+    background-image: url('images/foretcv.jpg') ;
+    background-size: cover;
+    text-align: center;
+   }
+
+  
+  .agauche {
+    text-align: left;
+    width: 30%;
+   }
+
+   .agauche img {
+    border-radius: 9999px;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+   }
+  
+   .adroite {
+       text-align:center;
+       width: 80%;
+   }
+
+   .enbas {
+    width: 89vw;
+    height: 10rem;
+    background-image: url('images/foretcv.jpg') ;
+    background-size: cover;
+    text-align: center;
+    color: white;
+   }
+ 
+  
+   .competences > ul {
+       display: grid;
+       grid-template-columns: 1fr 1fr;/*je veux 2 colonnes de la même taille*/
+       grid-gap: 1rem; 
+   }
+
+   .event {
+       display: grid;
+       grid-template-columns: 5ch 1fr;
+   } /*ici je veux placer à gauche en parrallèle au texte les dates, dans une première colonne*/
+  
+   .content {
+    border-left: 1px solid #888;
+    padding-left: 1rem; /*pour un peu d'espace entre les dates et la barre*/
+    margin-left: 1rem;
+    }/*traçage de la ligne*/
+
+    .resume {
+        display: grid;
+        grid-template-columns: 40% 1fr;
+        grid-gap: 6rem;
+        background-color: white;
+        padding: 2rem;
+        margin: auto;
+    }
+
