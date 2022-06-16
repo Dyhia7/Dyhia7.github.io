@@ -19,8 +19,8 @@
 
 #titregauche {
     justify-content: center;
+    font-size: xx-large;
     text-align: center;
-    font-size:xx-large;
     background-color: lightgrey ;
     border-style: inset;
     border-width: 5px;
@@ -38,7 +38,6 @@
 #titremilieu {
     justify-content: center;
     text-align: center;
-    font-size:xx-large;
     background-color: lightgrey ;
     margin-left: 20%;
     margin-right: 20%;
