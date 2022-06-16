@@ -2,9 +2,15 @@
     padding : 0;
     margin : 1;
     box-sizing: border-box;
+    background-color: lightgoldenrodyellow ;
   }
 
 h1 {
+    text-align: center;
+    color : pink ;
+}
+
+h2 {
     text-align: center;
     color : pink ;
 }
@@ -15,4 +21,10 @@ h3 {
 
 .Sommaire {
 border : 5px solid pink ;
+}
+
+.Nav {
+    text-align: center;
+    font-size: 2rem;
+    border : 5px solid pink ;
 }
