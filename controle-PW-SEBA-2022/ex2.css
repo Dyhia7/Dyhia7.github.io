@@ -5,7 +5,6 @@
     box-sizing: border-box;
     background-color: lightgoldenrodyellow ;
   }
-
 h1 {
     text-align: center;
     color : pink ;
@@ -23,6 +22,14 @@ h3 {
 p {
     text-align: justify;
 }
+
+.entete {
+    width: 89vw;
+    height: 10rem;
+    background-image: url('images/bandeauex2.jpg') ;
+    background-size: cover;
+    text-align: center;
+   }
 .Sommaire {
 border : 5px solid pink ;
 }
