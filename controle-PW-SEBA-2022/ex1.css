@@ -18,6 +18,10 @@
     border-style: outset;
 }
 
+#bord {
+    border-style: outset;
+    background-color: lightgray;
+}
 #titregauche {
     justify-content: center;
     font-size: xx-large;
@@ -39,7 +43,7 @@
 #titremilieu {
     justify-content: center;
     text-align: center;
-    background-color: lightgrey ;
+    background-color: white ;
     margin-left: 20%;
     margin-right: 20%;
 
