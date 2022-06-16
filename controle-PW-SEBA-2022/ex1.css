@@ -1,0 +1,119 @@
+*{
+    margin: 15px;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    
+    
+}
+
+#tab1 {
+    grid-column: 1;
+    height: 25rem;
+    border: solid 1px black;
+    display: block;
+    padding: 10px;
+    background-color:lightgray ;
+    text-align: left;
+}
+
+#titregauche {
+    justify-content: center;
+    text-align: center;
+    font-size:xx-large;
+    background-color: lightgrey ;
+    border-style: inset;
+    border-width: 5px;
+}
+
+#tab2 {
+    grid-column: 2/4;
+    grid-row: 1;
+    border: solid 3px black;
+    background-color:grey ;
+    border-style: dotted;
+    
+}
+
+#titremilieu {
+    justify-content: center;
+    text-align: center;
+    font-size:xx-large;
+    background-color: lightgrey ;
+    text-decoration: underline;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+
+#milieu1 {
+   padding:1%;
+    background-color:grey ;
+}
+
+#milieu2 {
+    padding: 1%;
+    background-color: lightgray ;
+}
+
+#titremilieu2 {
+    text-align: right;
+    font-size: italic ;
+    margin: auto;
+
+}
+
+#div2 {
+    width: 75%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    padding: 15px;
+}
+
+
+#tab3 {
+    grid-column: 4;
+    height: 17rem;
+    border: solid 1px black;
+    background-color: lightgray ;
+    text-align: right;
+    border-style: outset;
+
+}
+
+#titre3 {
+    justify-content: center;
+    text-align: center;
+    font-size:xx-large;
+    background-color:lightgray ;
+    border-style: outset;
+    border-width: 3px;
+}
+
+#tab_bas {
+    border: solid 2px lightgray ;
+    margin-top: 100px;
+    background-color:lightgray ;
+    border-style: outset;
+
+
+}
+
+#titrebas {
+    text-align: center;
+    justify-content: center;
+    font-style: italic;
+    background-color: lightgrey ;
+}
+
+#footer {
+    width: 60%;
+    text-align: center;
+    justify-content: center;
+}
