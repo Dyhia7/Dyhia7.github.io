@@ -31,3 +31,7 @@ border : 5px solid pink ;
     font-size: 2rem;
     border : 5px solid pink ;
 }
+
+.Nav a {
+    border : 5px solid pink; 
+}
