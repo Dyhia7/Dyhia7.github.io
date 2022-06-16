@@ -1,4 +1,5 @@
 * {
+    font-family: 'Times New Roman', Times, serif;
     padding : 0;
     margin : 1;
     box-sizing: border-box;
@@ -19,6 +20,9 @@ h3 {
     color : pink ;
 }
 
+p {
+    text-align: justify;
+}
 .Sommaire {
 border : 5px solid pink ;
 }
