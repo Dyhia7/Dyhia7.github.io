@@ -1,0 +1,18 @@
+* {
+    padding : 0;
+    margin : 1;
+    box-sizing: border-box;
+  }
+
+h1 {
+    text-align: center;
+    color : pink ;
+}
+
+h3 {
+    color : pink ;
+}
+
+.Sommaire {
+border : 5px solid pink ;
+}
